@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Telegram Mini App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .content {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        Telegram.WebApp.ready();
+    </script>
+
+</head>
+<body>
+<div class="content">
+    <img src="YOUR_IMAGE_URL" alt="Image">
+    <h1>Заголовок Текста</h1>
+    <p>Это пример текста для вашего Telegram Mini App. Вы можете добавить сюда любой контент.</p>
+    <a href="https://example.com" target="_blank">Первая ссылка</a>
+    <a href="https://example.com" target="_blank">Вторая ссылка</a>
+</div>
+</body>
+</html>
